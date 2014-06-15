@@ -19,7 +19,7 @@ I updated the excel to add the continent and hosts data. The result is not exact
 
     > wc <- read.xlsx("./data/wc.xlsx",sheetIndex=1, header=TRUE)
  
-    probitmfx(formula=winners ~ continent + hosts, data=wc)
+    > probitmfx(formula=winners ~ continent + hosts, data=wc)
     Call:
     probitmfx(formula = winners ~ continent + hosts, data = wc)
     
